@@ -15,7 +15,7 @@
 
 // (function()
 // {
-  var myApp = angular.module('myApp', ['ui.router']);
+  var myApp = angular.module('myApp', ['ui.router', 'angularCSS', 'ngStorage']);
   myApp.config(function($stateProvider, $urlRouterProvider, $controllerProvider, $compileProvider, $filterProvider, $provide)
   {
 
@@ -25,61 +25,19 @@
     myApp.filterProvider     = $filterProvider;
     myApp.provide            = $provide;
 
-    // Register routes with the $routeProvider
-    // $routeProvider.when('/view1', {templateUrl:'view1/view1.html', controller: 'View1Ctrl', resolve:{deps:function($q, $rootScope)
-    // {
-    //   var deferred = $q.defer();
-    //   var dependencies =
-    //       [
-    //         'view1/view1.js'
-    //       ];
-    //
-    //   $script(dependencies, function()
-    //   {
-    //     // all dependencies have now been loaded by $script.js so resolve the promise
-    //     $rootScope.$apply(function()
-    //     {
-    //       deferred.resolve();
-    //     });
-    //   });
-    //
-    //   return deferred.promise;
-    // }}});
-    //
-    // $routeProvider.when('/view2', {templateUrl:'view2/view2.html', controller: 'View2Ctrl', resolve:{deps:function($q, $rootScope)
-    // {
-    //   var deferred = $q.defer();
-    //   var dependencies =
-    //       [
-    //         'view2/view2.js',
-    //         '/app/components/directive/test-directive.js'
-    //       ];
-    //
-    //   $script(dependencies, function()
-    //   {
-    //     // all dependencies have now been loaded by $script.js so resolve the promise
-    //     $rootScope.$apply(function()
-    //     {
-    //       deferred.resolve();
-    //     });
-    //   });
-    //
-    //   return deferred.promise;
-    // }}});
+
     $urlRouterProvider.otherwise("/");
     $stateProvider
         .state('test', {
           url: "/view1",
           templateUrl: "view1/view1.html",
+          css: appIncludeFilesJson[appEnvironment].pages.test.css,
           controller: 'View1Ctrl',
           resolve:
             {
               deps:function($q, $rootScope){
                 var deferred = $q.defer();
-                var dependencies =
-                    [
-                      'view1/view1.js'
-                    ];
+                var dependencies = appIncludeFilesJson[appEnvironment].pages.test.js;
 
                 $script(dependencies, function()
                 {

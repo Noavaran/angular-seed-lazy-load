@@ -1,23 +1,43 @@
 {
   "development" : {
-    "css" : [],
-    "js" : [
-      {
-        "path" : "/app/bower_components/angular/angular.js",
-        "position" : "end"
-      },
-      {
-        "path" : "bower_components/angular-ui-router/release/angular-ui-router.js",
-        "position" : "end"
-      },
-      {
-        "path" : "app.js",
-        "position" : "end"
+    "index" : {
+      "css" : [
+
+      ],
+      "js" : [
+        {
+          "path" : "/app/bower_components/angular/angular.js",
+          "position" : "end"
+        },
+        {
+          "path" : "/app/bower_components/angular-ui-router/release/angular-ui-router.js",
+          "position" : "end"
+        },
+        {
+          "path" : "/app/bower_components/ngstorage/ngStorage.js",
+          "position" : "end"
+        },
+        {
+          "path" : "/app/bower_components/angular-css/angular-css.js",
+          "position" : "end"
+        },
+        {
+          "path" : "app.js",
+          "position" : "end"
+        }
+      ]
+    },
+    "pages" : {
+      "test" : {
+        "css" : [
+          "test.css",
+          "app.css"
+        ],
+        "js" : [
+          "view1/view1.js"
+        ]
       }
-    ]
+    }
   },
-  "production" : {
-    "css" : [],
-    "js" : []
-  }
+  "production" : {}
 }
