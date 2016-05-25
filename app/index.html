@@ -34,7 +34,7 @@
 
   <div>Angular seed app: v<span app-version></span></div>
 
-  <!--<script src="/app/bower_components/angular/angular.js"></script>-->
+  <script src="/app/bower_components/angular/angular.js"></script>
   <!--<script src="/app/bower_components/angular-ui-router/release/angular-ui-router.js"></script>-->
   <!--<script src="/app/bower_components/ngstorage/ngStorage.js"></script>-->
   <!--<script src="/app/bower_components/angular-css/angular-css.js"></script>-->
@@ -92,7 +92,8 @@
           jsLink.async = true;
           jsLink.onload = function (filePath) {
             var filePart = filePath.split("/");
-            if(filePart[filePart.length - 1] == "angular.js"){
+            if(filePart[filePart.length - 1] == "app.js"){
+//              alert(2)
               setTimeout(function () {
                 angular.bootstrap(document, ['myApp']);
               },450);
