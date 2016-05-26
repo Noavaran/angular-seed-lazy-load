@@ -1,20 +1,4 @@
-// 'use strict';
-//
-// // Declare app level module which depends on views, and components
-// var myApp = angular.module('myApp', ['ngRoute']);
-//
-// myApp.config(['$routeProvider', function($routeProvider) {
-//   $routeProvider.when('/view1', {
-//     templateUrl: 'view1/view1.html',
-//     controller: 'View1Ctrl'
-//   });
-//   $routeProvider.otherwise({redirectTo: '/view1'});
-// }]);
-//
 
-
-// (function()
-// {
   var myApp = angular.module('myApp', ['ui.router', 'angularCSS', 'ngStorage']);
   myApp.config(function($stateProvider, $urlRouterProvider, $controllerProvider, $compileProvider, $filterProvider, $provide)
   {
@@ -24,8 +8,7 @@
     myApp.stateProvider      = $stateProvider;
     myApp.filterProvider     = $filterProvider;
     myApp.provide            = $provide;
-
-
+      
     $urlRouterProvider.otherwise("/");
     $stateProvider
         .state('test', {
@@ -110,4 +93,3 @@
           }
         })
   });
-// })();

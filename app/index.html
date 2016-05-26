@@ -47,6 +47,8 @@
 
   <script>
 
+
+
     var appEnvironment = "development";
     var appIncludeFilesJson = {};
 
@@ -73,7 +75,6 @@
         var endTag = document.createElement("div");
 
         for(var i=0; i < cssFiles.length; i++){
-//          var cssLink = document.createElement("<link rel='stylesheet' type='text/css' href='" + cssFiles[i].path + "'>");
           var cssLink = document.createElement("link");
           cssLink.setAttribute("rel", "stylesheet");
           cssLink.setAttribute("href", cssFiles[i].path);
@@ -85,38 +86,26 @@
         }
 
         for(var j=0; j < jsFiles.length; j++){
-//          var jsLink = document.createElement("<script type='text/javascript' src='" + jsFiles[j].path + "'>");
           var jsLink = document.createElement("script");
           jsLink.setAttribute("type", "text/javascript");
           jsLink.setAttribute("src", jsFiles[j].path);
           jsLink.async = true;
-          jsLink.onload = function (filePath) {
-            var filePart = filePath.split("/");
-            if(filePart[filePart.length - 1] == "app.js"){
-//              alert(2)
-              setTimeout(function () {
-                angular.bootstrap(document, ['myApp']);
-              },450);
-            }
-          }(jsFiles[j].path);
           if(jsFiles[j].position == "start"){
             head.appendChild(jsLink);
           }else{
             endTag.appendChild(jsLink);
-//            document.body.appendChild(jsLink);
           }
         }
 
-//        var body = document.getElementsByTagName("body");
-
         document.body.appendChild(endTag);
-//        setTimeout(function () {
-//          angular.bootstrap(document, ['myApp']);
-//        },450);
+        setTimeout(function () {
+            angular.bootstrap(document, ['myApp']);
+        },200);
 
       });
     }
     initIncludes();
+
   </script>
 
 </body>
