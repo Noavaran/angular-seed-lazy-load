@@ -1,0 +1,464 @@
+.btn-group.btn-group-justified .c-btn-uppercase.btn-lg {
+    padding: 12px 0px 11px 0px; }
+.c-menu-thumbnail li {
+    width: 20%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+.c-menu-collection li {
+    width: 16.66666%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+#megamenu_size .c-menu-thumbnail li {
+    width: 33.33333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding:0; }
+.c-menu-thumbnail li a {
+    display: block;
+    line-height: 20px;
+    overflow: hidden; }
+.c-menu-collection li a {
+    display: block;
+    line-height: 20px;
+    overflow: hidden; }
+.c-layout-header .c-navbar .c-mega-menu > .nav.navbar-nav > li .dropdown-menu .c-menu-thumbnail > li > a {
+    padding: 15px; }
+.c-menu-thumbnail li a .thumbnail.c-span-thumbnail {
+    float: left;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0;
+    border: 0; }
+#megamenu_size .c-menu-thumbnail > .thumbnail.c-span-thumbnail {
+    float: left;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0;
+    border: 0; }
+.c-menu-thumbnail li a .c-div-thumbnail-title {
+    height: 40px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 1%; }
+#megamenu_size .c-menu-thumbnail > .c-div-thumbnail-title {
+    height: 40px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 1%;
+    border-bottom: 1px solid #fff; }
+.c-menu-thumbnail li a .c-span-thumbnail-title {
+    float: left;
+    margin-left: 10px; }
+#megamenu_size .c-menu-thumbnail > .c-div-thumbnail-title > .c-span-thumbnail-title {
+    float: left;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase; }
+#megamenu_size .c-menu-thumbnail .c-menu-type-inline {
+    border-right: 1px solid #fff; }
+.c-menu-line-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover; }
+.c-menu-line-icon.c-theme {
+    background-image: url(../../img/content/line-icons/rm1.png); }
+    .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li .dropdown-menu > li.c-active > a > .c-menu-line-icon.c-theme, .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li .dropdown-menu > li:hover > a > .c-menu-line-icon.c-theme {
+        background-image: url(../../img/content/line-icons/rm2.png);
+        background-color: #292e33; }
+
+    .c-menu-line-icon.c-icon-style-animal {
+        background-position: 0 -560px; }
+    .c-menu-line-icon.c-icon-style-asian {
+        background-position: 0 -600px; }
+    .c-menu-line-icon.c-icon-style-botanical {
+        background-position: 0 -640px; }
+    .c-menu-line-icon.c-icon-style-braided {
+        background-position: 0 -680px; }
+    .c-menu-line-icon.c-icon-style-contemporary {
+        background-position: 0 -720px; }
+    .c-menu-line-icon.c-icon-style-country-floral {
+        background-position: 0 -760px; }
+    .c-menu-line-icon.c-icon-style-european {
+        background-position: 0 -800px; }
+    .c-menu-line-icon.c-icon-style-flat-woven {
+        background-position: 0 -840px; }
+    .c-menu-line-icon.c-icon-style-indoor-outdoor {
+        background-position: 0 -880px; }
+    .c-menu-line-icon.c-icon-style-naturals {
+        background-position: 0 -920px; }
+    .c-menu-line-icon.c-icon-style-shag-flokati {
+        background-position: 0 -960px; }
+    .c-menu-line-icon.c-icon-style-solid-tone-on-tone {
+        background-position: 0 -1000px; }
+    .c-menu-line-icon.c-icon-style-southwestern {
+        background-position: 0 -1040px; }
+    .c-menu-line-icon.c-icon-style-theme {
+        background-position: 0 -1080px; }
+    .c-menu-line-icon.c-icon-style-traditional {
+        background-position: 0 -1120px; }
+    .c-menu-line-icon.c-icon-style-transitional {
+        background-position: 0 -1160px; }
+
+
+    .c-menu-line-icon.c-icon-shape-rectangle {
+        background-position: 0 -1320px; }
+    .c-menu-line-icon.c-icon-shape-round {
+        background-position: 0 -1360px; }
+    .c-menu-line-icon.c-icon-shape-runner {
+        background-position: 0 -1400px; }
+    .c-menu-line-icon.c-icon-shape-square {
+        background-position: 0 -1480px; }
+    .c-menu-line-icon.c-icon-shape-oval {
+        background-position: 0 -1280px; }
+    .c-menu-line-icon.c-icon-shape-octagon {
+        background-position: 0 -1240px; }
+    .c-menu-line-icon.c-icon-shape-cube {
+        background-position: 0 -1520px; }
+    .c-menu-line-icon.c-icon-shape-scalloped {
+        background-position: 0 -1440px; }
+
+    .c-menu-line-icon.c-icon-color-beige-tan {
+        background-position: 0 0px; }
+    .c-menu-line-icon.c-icon-color-black {
+        background-position: 0 -40px; }
+    .c-menu-line-icon.c-icon-color-black-white {
+        background-position: 0 -80px; }
+    .c-menu-line-icon.c-icon-color-blue-navy {
+        background-position: 0 -120px; }
+    .c-menu-line-icon.c-icon-color-brown {
+        background-position: 0 -160px; }
+    .c-menu-line-icon.c-icon-color-gray-silver {
+        background-position: 0 -200px; }
+    .c-menu-line-icon.c-icon-color-green {
+        background-position: 0 -240px; }
+    .c-menu-line-icon.c-icon-color-multi {
+        background-position: 0 -280px; }
+    .c-menu-line-icon.c-icon-color-orange-rust {
+        background-position: 0 -320px; }
+    .c-menu-line-icon.c-icon-color-pink-purple {
+        background-position: 0 -360px; }
+    .c-menu-line-icon.c-icon-color-red {
+        background-position: 0 -400px; }
+    .c-menu-line-icon.c-icon-color-red-burgundy {
+        background-position: 0 -440px; }
+    .c-menu-line-icon.c-icon-color-white-ivory {
+        background-position: 0 -480px; }
+    .c-menu-line-icon.c-icon-color-yellow-gold {
+        background-position: 0 -520px; }
+
+    .c-menu-line-icon.c-icon-size-small {
+        background-position: 0 -1560px;}
+    .c-menu-line-icon.c-icon-size-medium{
+        background-position: 0 -1600px; }
+    .c-menu-line-icon.c-icon-size-large {
+        background-position: 0 -1640px; }
+    .c-menu-line-icon.c-icon-size-extra-large {
+        background-position: 0 -1680px; }
+    .c-menu-line-icon.c-icon-size-icon {
+        background-position: 0 -1720px;; }
+
+.c-filter-line-icon.c-theme {
+    background-image: url(../../img/content/line-icons/rm1.png); }
+.c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li .dropdown-menu > li.c-active > a > .c-menu-line-icon.c-theme, .c-layout-header .c-navbar .c-mega-menu.c-mega-menu-dark > .nav.navbar-nav > li .dropdown-menu > li:hover > a > .c-menu-line-icon.c-theme {
+    background-image: url(../../img/content/line-icons/rm2.png);
+    background-color: #292e33; }
+
+    .c-filter-line-icon.c-icon-style-animal {
+        background-position: 0 -420px; }
+    .c-filter-line-icon.c-icon-style-asian {
+        background-position: 0 -450px; }
+    .c-filter-line-icon.c-icon-style-botanical {
+        background-position: 0 -480px; }
+    .c-filter-line-icon.c-icon-style-braided {
+        background-position: 0 -510px; }
+    .c-filter-line-icon.c-icon-style-contemporary {
+        background-position: 0 -540px; }
+    .c-filter-line-icon.c-icon-style-country-floral {
+        background-position: 0 -570px; }
+    .c-filter-line-icon.c-icon-style-european {
+        background-position: 0 -600px; }
+    .c-filter-line-icon.c-icon-style-flat-woven {
+        background-position: 0 -630px; }
+    .c-filter-line-icon.c-icon-style-indoor-outdoor {
+        background-position: 0 -660px; }
+    .c-filter-line-icon.c-icon-style-naturals {
+        background-position: 0 -690px; }
+    .c-filter-line-icon.c-icon-style-shag-flokati {
+        background-position: 0 -720px; }
+    .c-filter-line-icon.c-icon-style-solid-tone-on-tone {
+        background-position: 0 -750px; }
+    .c-filter-line-icon.c-icon-style-southwestern {
+        background-position: 0 -780px; }
+    .c-filter-line-icon.c-icon-style-theme {
+        background-position: 0 -810px; }
+    .c-filter-line-icon.c-icon-style-traditional {
+        background-position: 0 -840px; }
+    .c-filter-line-icon.c-icon-style-transitional {
+        background-position: 0 -870px; }
+
+
+    .c-filter-line-icon.c-icon-shape-rectangle {
+        background-position: 0 -990px; }
+    .c-filter-line-icon.c-icon-shape-round {
+        background-position: 0 -1020px; }
+    .c-filter-line-icon.c-icon-shape-runner {
+        background-position: 0 -1050px; }
+    .c-filter-line-icon.c-icon-shape-square {
+        background-position: 0 -1110px; }
+    .c-filter-line-icon.c-icon-shape-oval {
+        background-position: 0 -960px; }
+    .c-filter-line-icon.c-icon-shape-octagon {
+        background-position: 0 -930px; }
+    .c-filter-line-icon.c-icon-shape-cube {
+        background-position: 0 -1140px; }
+    .c-filter-line-icon.c-icon-shape-scalloped {
+        background-position: 0 -1080px; }
+
+    .c-filter-line-icon.c-icon-color-beige-tan {
+        background-position: 0 0px; }
+    .c-filter-line-icon.c-icon-color-black {
+        background-position: 0 -30px; }
+    .c-filter-line-icon.c-icon-color-black-white {
+        background-position: 0 -60px; }
+    .c-filter-line-icon.c-icon-color-blue-navy {
+        background-position: 0 -90px; }
+    .c-filter-line-icon.c-icon-color-brown {
+        background-position: 0 -120px; }
+    .c-filter-line-icon.c-icon-color-gray-silver {
+        background-position: 0 -150px; }
+    .c-filter-line-icon.c-icon-color-green {
+        background-position: 0 -180px; }
+    .c-filter-line-icon.c-icon-color-multi {
+        background-position: 0 -210px; }
+    .c-filter-line-icon.c-icon-color-orange-rust {
+        background-position: 0 -240px; }
+    .c-filter-line-icon.c-icon-color-pink-purple {
+        background-position: 0 -270px; }
+    .c-filter-line-icon.c-icon-color-red {
+        background-position: 0 -300px; }
+    .c-filter-line-icon.c-icon-color-red-burgundy {
+        background-position: 0 -330px; }
+    .c-filter-line-icon.c-icon-color-white-ivory {
+        background-position: 0 -360px; }
+    .c-filter-line-icon.c-icon-color-yellow-gold {
+        background-position: 0 -390px; }
+
+    .c-filter-line-icon.c-icon-size-small {
+        background-position: 0 -1170px;}
+    .c-filter-line-icon.c-icon-size-medium{
+        background-position: 0 -1200px; }
+    .c-filter-line-icon.c-icon-size-large {
+        background-position: 0 -1230px; }
+    .c-filter-line-icon.c-icon-size-extra-large {
+        background-position: 0 -1260px; }
+    .c-filter-line-icon.c-icon-size-icon {
+        background-position: 0 -1290px;; }
+
+    .c-filter-line-icon.c-icon-style {
+        background-position: 0 -2350px;}
+    .c-filter-line-icon.c-icon-shape{
+        background-position: 0 -2200px; }
+    .c-filter-line-icon.c-icon-color {
+        background-position: 0 -2300px; }
+    .c-filter-line-icon.c-icon-size {
+        background-position: 0 -2250px; }
+
+.c-content-line-icon.c-theme {
+    background-image: url(../../img/content/line-icons/rm1.png); }
+
+    .c-content-line-icon.c-icon-style-animal {
+        background-position: 0 -840px; }
+    .c-content-line-icon.c-icon-style-asian {
+        background-position: 0 -900px; }
+    .c-content-line-icon.c-icon-style-botanical {
+        background-position: 0 -960px; }
+    .c-content-line-icon.c-icon-style-braided {
+        background-position: 0 -1020px; }
+    .c-content-line-icon.c-icon-style-contemporary {
+        background-position: 0 -1080px; }
+    .c-content-line-icon.c-icon-style-country-floral {
+        background-position: 0 -1140px; }
+    .c-content-line-icon.c-icon-style-european {
+        background-position: 0 -1200px; }
+    .c-content-line-icon.c-icon-style-flat-woven {
+        background-position: 0 -1260px; }
+    .c-content-line-icon.c-icon-style-indoor-outdoor {
+        background-position: 0 -1320px; }
+    .c-content-line-icon.c-icon-style-naturals {
+        background-position: 0 -1380px; }
+    .c-content-line-icon.c-icon-style-shag-flokati {
+        background-position: 0 -1440px; }
+    .c-content-line-icon.c-icon-style-solid-tone-on-tone {
+        background-position: 0 -1500px; }
+    .c-content-line-icon.c-icon-style-southwestern {
+        background-position: 0 -1560px; }
+    .c-content-line-icon.c-icon-style-theme {
+        background-position: 0 -1620px; }
+    .c-content-line-icon.c-icon-style-traditional {
+        background-position: 0 -1680px; }
+    .c-content-line-icon.c-icon-style-transitional {
+        background-position: 0 -1740px; }
+
+
+    .c-content-line-icon.c-icon-shape-rectangle {
+        background-position: 0 -1980px; }
+    .c-content-line-icon.c-icon-shape-round {
+        background-position: 0 -2040px; }
+    .c-content-line-icon.c-icon-shape-runner {
+        background-position: 0 -2100px; }
+    .c-content-line-icon.c-icon-shape-square {
+        background-position: 0 -2220px; }
+    .c-content-line-icon.c-icon-shape-oval {
+        background-position: 0 -1920px; }
+    .c-content-line-icon.c-icon-shape-octagon {
+        background-position: 0 -1860px; }
+    .c-content-line-icon.c-icon-shape-cube {
+        background-position: 0 -2280px; }
+    .c-content-line-icon.c-icon-shape-scalloped {
+        background-position: 0 -2160px; }
+
+    .c-content-line-icon.c-icon-color-beige-tan {
+        background-position: 0 0px; }
+    .c-content-line-icon.c-icon-color-black {
+        background-position: 0 -60px; }
+    .c-content-line-icon.c-icon-color-black-white {
+        background-position: 0 -120px; }
+    .c-content-line-icon.c-icon-color-blue-navy {
+        background-position: 0 -180px; }
+    .c-content-line-icon.c-icon-color-brown {
+        background-position: 0 -240px; }
+    .c-content-line-icon.c-icon-color-gray-silver {
+        background-position: 0 -300px; }
+    .c-content-line-icon.c-icon-color-green {
+        background-position: 0 -360px; }
+    .c-content-line-icon.c-icon-color-multi {
+        background-position: 0 -420px; }
+    .c-content-line-icon.c-icon-color-orange-rust {
+        background-position: 0 -480px; }
+    .c-content-line-icon.c-icon-color-pink-purple {
+        background-position: 0 -540px; }
+    .c-content-line-icon.c-icon-color-red {
+        background-position: 0 -600px; }
+    .c-content-line-icon.c-icon-color-red-burgundy {
+        background-position: 0 -660px; }
+    .c-content-line-icon.c-icon-color-white-ivory {
+        background-position: 0 -720px; }
+    .c-content-line-icon.c-icon-color-yellow-gold {
+        background-position: 0 -780px; }
+
+    .c-content-line-icon.c-icon-size-small {
+        background-position: 0 -2340px;}
+    .c-content-line-icon.c-icon-size-medium {
+        background-position: 0 -2400px; }
+    .c-content-line-icon.c-icon-size-large {
+        background-position: 0 -2460px; }
+    .c-content-line-icon.c-icon-size-extra-large {
+        background-position: 0 -2520px; }
+    .c-content-line-icon.c-icon-size-icon {
+        background-position: 0 -2580px;; }
+
+    .c-content-line-icon.c-icon-style {
+        background-position: 0 -2820px;}
+    .c-content-line-icon.c-icon-shape{
+        background-position: 0 -2640px; }
+    .c-content-line-icon.c-icon-color {
+        background-position: 0 -2760px; }
+    .c-content-line-icon.c-icon-size {
+        background-position: 0 -2700px; }
+
+.c-layout-header .c-cart-menu .c-cart-menu-items > li > img {
+    height: auto; }
+
+.c-content-feature-2.c-option-3 {
+    cursor: pointer;
+    padding: 20px 0; }
+.c-content-feature-2.c-option-3.c-parent-size {
+    cursor: pointer;
+    padding: 20px 0;
+    margin: 15px 5px;}
+.c-content-feature-2.c-option-3.c-size {
+    cursor: pointer;
+    padding: 3px 0;
+    margin: 5px;}
+    .c-content-feature-2.c-option-3 .c-icon-wrapper {
+        background: none;
+        padding: 4px;
+        border: 1px solid #eeeeee;
+        float: none;
+        margin: 0 auto; }
+        /*.c-content-feature-2.c-option-3 .c-icon-wrapper > .c-content-line-icon {
+            width: 40px;
+            height: 40px;
+            float: left; }*/
+    .c-content-feature-2.c-option-3:hover .c-icon-wrapper {
+        border: 0; }
+    .c-content-feature-2.c-option-3:hover .c-icon-wrapper > .c-content-line-icon {
+        background-image: url(../../img/content/line-icons/rm2.png); }
+
+.c-content-tab-2.c-theme > ul > li.active > a > .c-filter-line-icon, .c-content-tab-2.c-theme > ul > li:hover > a > .c-filter-line-icon {
+    background-image: url(../../img/content/line-icons/rm2.png);
+    background-color: #292e33; }
+.c-content-tab-2 > .nav > li > a > .c-title.c-filter {margin: 0 0 5px 0; }
+.c-content-tab-2 > .nav > li:not(.active) > a > .c-filter-line-icon {background-image: url(../../img/content/line-icons/rm1.png); }
+.c-content-tab-2 > .nav > li > a > .c-filter-line-icon {display: inline-block;width: 50px;height: 50px;background-size: cover; }
+
+.c-filter-box {
+    min-height: 261px; }
+
+.c-content-tab-2.c-filter-tab > .c-tab-content .tab-content {
+    padding: 0;
+    overflow: auto; }
+.c-content-tab-2.c-filter-tab > .c-tab-content .tab-content>.active {
+    display: block;
+    padding: 20px 0 10px 0; }
+.c-content-feature-2.c-option-4 {
+    cursor: pointer;
+    padding: 0; }
+.c-content-feature-2.c-option-4 .c-title {
+    font-size: 13px;
+    line-height: 35px; }
+.c-content-feature-2.c-option-4.c-parent-size {
+    cursor: pointer;
+    padding: 0;
+    margin: 0 5px 15px 5px;}
+.c-content-feature-2.c-option-4.c-size {
+    cursor: pointer;
+    padding: 0;
+    margin: 5px;}
+    .c-content-feature-2.c-option-4 .c-icon-wrapper {
+        background: none;
+        padding: 2px;
+        border-right: 1px solid #31383C;
+        margin: 0 auto;
+        width: 35px;
+        height: 35px; }
+        .c-content-feature-2.c-option-4 .c-icon-wrapper > .c-filter-line-icon {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            float: left;
+            background-size: cover; }
+    .c-content-feature-2.c-option-4:hover .c-icon-wrapper {
+        border: 0; }
+    .c-content-feature-2.c-option-4:hover .c-icon-wrapper > .c-filter-line-icon {
+        background-image: url(../../img/content/line-icons/rm2.png); }
+
+@media (min-width: 1200px) {
+    .c-filter-fixed {
+        position: fixed;
+        top: 65px;
+        z-index: 10;
+        background: rgba(255, 255, 255, 0.9);
+        width: 100%; }
+}

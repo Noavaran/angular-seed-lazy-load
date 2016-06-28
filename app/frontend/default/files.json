@@ -1,0 +1,43 @@
+{
+  "development" : {
+    "index" : {
+      "css" : [],
+      "js" : [
+        {
+          "path" : "/app/bower_components/angular-ui-router/release/angular-ui-router.min.js",
+          "position" : "end"
+        },
+        {
+          "path" : "/app/bower_components/angular-css/angular-css.min.js",
+          "position" : "end"
+        },
+        {
+          "path" : "views/resource/js/app.js",
+          "position" : "end"
+        }
+      ]
+    },
+    "pages" : {
+      "home" : {
+        "css" : [
+          "views/resource/css/app.css"
+        ],
+        "js" : [
+          "/app/components/home/home-directive.js",
+          "views/pages/home/home.js"
+        ]
+      },
+      "notFound" : {
+        "css" : [],
+        "js" : [
+          "/app/components/404/not-found-directive.js",
+          "views/pages/404/404.js"
+        ]
+      }
+    }
+  },
+  "production" : {
+    "css" : [],
+    "js" : []
+  }
+}
