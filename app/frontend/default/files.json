@@ -1,7 +1,36 @@
 {
   "development" : {
     "index" : {
-      "css" : [],
+      "css" : [
+        {
+          "path" : "http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all",
+          "position" : "start"
+        },
+        {
+          "path" : "/app/resource/theme/django/assets/plugins/font-awesome/css/font-awesome.css",
+          "position" : "start"
+        },
+        {
+          "path" : "/app/resource/theme/django/assets/plugins/animate/animate.css",
+          "position" : "start"
+        },
+        {
+          "path" : "/app/resource/theme/django/assets/plugins/bootstrap/css/bootstrap.css",
+          "position" : "start"
+        },
+        {
+          "path" : "/app/resource/theme/django/assets/base/css/themes/style.css",
+          "position" : "start"
+        },
+        {
+          "path" : "/app/resource/theme/django/assets/base/css/themes/dark-rug-3.css",
+          "position" : "start"
+        },
+        {
+          "path" : "/app/resource/theme/django/assets/base/css/components.css",
+          "position" : "start"
+        }
+      ],
       "js" : [
         {
           "path" : "/app/bower_components/angular-ui-router/release/angular-ui-router.min.js",
@@ -13,6 +42,10 @@
         },
         {
           "path" : "views/resource/js/app.js",
+          "position" : "end"
+        },
+        {
+          "path" : "/app/resource/theme/django/assets/base/js/components.min.js",
           "position" : "end"
         }
       ]
